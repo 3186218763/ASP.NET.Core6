@@ -1,0 +1,263 @@
+2023-08-04 14:18:43.2483|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/First/Index.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Second/Index.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Third/Index.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Third/Index1.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Third/Index2.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Third/Index3.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Third/Index4.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'. 
+2023-08-04 14:18:43.2724|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-08-04 14:18:43.3017|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2023-08-04 14:18:43.3125|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using 'C:\Users\宋志杰\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-04 14:18:43.3125|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\宋志杰\AppData\Local\ASP.NET\DataProtection-Keys\key-959c7062-b108-4240-8fc7-a8a1b29d93a4.xml'. 
+2023-08-04 14:18:43.3125|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {959c7062-b108-4240-8fc7-a8a1b29d93a4}. 
+2023-08-04 14:18:43.3290|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with expiration date 2023-10-24 08:01:10Z as default key. 
+2023-08-04 14:18:43.3290|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-08-04 14:18:43.3290|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2023-08-04 14:18:43.3290|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-08-04 14:18:43.3290|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-08-04 14:18:43.3290|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-08-04 14:18:43.3290|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {959c7062-b108-4240-8fc7-a8a1b29d93a4} as the default key. 
+2023-08-04 14:18:43.3290|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|DEBUG|Key ring with default key {959c7062-b108-4240-8fc7-a8a1b29d93a4} was loaded during application startup. 
+2023-08-04 14:18:43.3650|Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5210 
+2023-08-04 14:18:43.3650|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Advanced.NET6 
+2023-08-04 14:18:43.3650|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-08-04 14:18:43.3650|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-08-04 14:18:43.3650|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2023-08-04 14:18:43.3650|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2023-08-04 14:18:43.3650|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\ 
+2023-08-04 14:18:43.3650|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2023-08-04 14:18:43.7576|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVM" received FIN. 
+2023-08-04 14:18:43.7576|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVM" accepted. 
+2023-08-04 14:18:43.7576|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVM" started. 
+2023-08-04 14:18:43.7576|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVM" sending FIN because: "The client closed the connection." 
+2023-08-04 14:18:43.7576|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVM" disconnecting. 
+2023-08-04 14:18:43.7576|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVM" stopped. 
+2023-08-04 14:18:44.5278|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVN" accepted. 
+2023-08-04 14:18:44.5278|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVN" started. 
+2023-08-04 14:18:44.5584|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/ - - 
+2023-08-04 14:18:44.5838|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2023-08-04 14:18:44.5838|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-04 14:18:44.5933|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-04 14:18:44.5933|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2023-08-04 14:18:44.6102|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/' 
+2023-08-04 14:18:44.6102|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/' 
+2023-08-04 14:18:44.6102|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6)' 
+2023-08-04 14:18:44.6102|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6)' 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Advanced.NET6.Controllers.HomeController (Advanced.NET6). 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller Advanced.NET6.Controllers.HomeController (Advanced.NET6) 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller Advanced.NET6.Controllers.HomeController (Advanced.NET6) 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6) - Validation state: Valid 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5383ms. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:44.6414|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-08-04 14:18:44.6515|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2023-08-04 14:18:44.6515|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/Home/Index.cshtml'. 
+2023-08-04 14:18:44.6515|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'. 
+2023-08-04 14:18:44.6515|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/_ViewStart.cshtml'. 
+2023-08-04 14:18:44.6515|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2023-08-04 14:18:44.6515|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Index. 
+2023-08-04 14:18:44.6515|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|DEBUG|The view path '/Views/Home/Index.cshtml' was found in 5.2278ms. 
+2023-08-04 14:18:44.6784|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Home'. 
+2023-08-04 14:18:44.6784|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/Views/Home/_Layout.cshtml'. 
+2023-08-04 14:18:44.6784|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'. 
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and  
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result / 
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and  
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result / 
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and  
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy 
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and  
+2023-08-04 14:18:44.7130|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy 
+2023-08-04 14:18:44.7486|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2023-08-04 14:18:44.8129|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Index executed in 162.3289ms. 
+2023-08-04 14:18:44.8129|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-08-04 14:18:44.8129|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:44.8129|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:44.8129|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:44.8129|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:44.8129|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6) in 172.3697ms 
+2023-08-04 14:18:44.8129|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6)' 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVN" completed keep alive response. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/ - - - 200 - text/html;+charset=utf-8 365.1996ms 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVO" accepted. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVO" started. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVP" accepted. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVP" started. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/Advanced.NET6.styles.css?v=Q-2FROdCryhlD-sZ1ChDkwUrpmAiL8gpAFfYhr-OyKQ - - 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVQ" accepted. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVQ" started. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVR" accepted. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVR" started. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/lib/bootstrap/dist/css/bootstrap.min.css - - 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/lib/jquery/dist/jquery.min.js - - 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVS" accepted. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVS" started. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery/dist/jquery.min.js was not modified 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /Advanced.NET6.styles.css was not modified 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/site.css was not modified 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/site.css 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /Advanced.NET6.styles.css 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVP" completed keep alive response. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVN" completed keep alive response. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVQ" completed keep alive response. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 1.9022ms 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 1.9414ms 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/Advanced.NET6.styles.css?v=Q-2FROdCryhlD-sZ1ChDkwUrpmAiL8gpAFfYhr-OyKQ - - - 304 - text/css 4.1447ms 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVR" completed keep alive response. 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 1.9003ms 
+2023-08-04 14:18:44.9200|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVO" completed keep alive response. 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 4.5593ms 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVS" completed keep alive response. 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - - 200 12357 application/javascript;+charset=utf-8 1.6800ms 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /js/site.js was not modified 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /js/site.js 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVQ" completed keep alive response. 
+2023-08-04 14:18:44.9298|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 0.4705ms 
+2023-08-04 14:18:44.9794|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - 
+2023-08-04 14:18:44.9998|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVQ" completed keep alive response. 
+2023-08-04 14:18:44.9998|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.5509ms 
+2023-08-04 14:18:45.0344|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/favicon.ico - - 
+2023-08-04 14:18:45.0344|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-04 14:18:45.0344|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-04 14:18:45.0344|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2023-08-04 14:18:45.0415|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/favicon.ico'. Physical path: 'D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\wwwroot\favicon.ico' 
+2023-08-04 14:18:45.0415|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVQ" completed keep alive response. 
+2023-08-04 14:18:45.0415|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/favicon.ico - - - 200 5430 image/x-icon 7.3233ms 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVS" received FIN. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVR" received FIN. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVP" received FIN. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVN" received FIN. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVO" received FIN. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVN" sending FIN because: "The client closed the connection." 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVO" sending FIN because: "The client closed the connection." 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVR" sending FIN because: "The client closed the connection." 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVS" sending FIN because: "The client closed the connection." 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVP" sending FIN because: "The client closed the connection." 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVQ" received FIN. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVR" disconnecting. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSKMAJN8UVQ" sending FIN because: "The client closed the connection." 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVS" disconnecting. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVP" disconnecting. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVQ" disconnecting. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVO" disconnecting. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVN" disconnecting. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVQ" stopped. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVO" stopped. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVR" stopped. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVN" stopped. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVS" stopped. 
+2023-08-04 14:18:46.7427|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVP" stopped. 
+2023-08-04 14:18:56.3337|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVT" accepted. 
+2023-08-04 14:18:56.3337|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVT" started. 
+2023-08-04 14:18:56.3337|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/Third/Index7 - - 
+2023-08-04 14:18:56.3337|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-04 14:18:56.3337|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-04 14:18:56.3337|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Third/Index7 does not match a supported file type 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/Third/Index7' 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'Advanced.NET6.Controllers.ThirdController.Index7 (Advanced.NET6)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Third/Index7' 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'Advanced.NET6.Controllers.ThirdController.Index7 (Advanced.NET6)' 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Advanced.NET6.Controllers.ThirdController.Index7 (Advanced.NET6)' 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Index7", controller = "Third"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index7() on controller Advanced.NET6.Controllers.ThirdController (Advanced.NET6). 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): Advanced.NET6.Utility.Filters.CustomExecptionFilterAttribute 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller Advanced.NET6.Controllers.ThirdController (Advanced.NET6) 
+2023-08-04 14:18:56.3356|Advanced.NET6.Controllers.SecondController|INFO|ThirdController 被构造了。。 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller Advanced.NET6.Controllers.ThirdController (Advanced.NET6) 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method Advanced.NET6.Controllers.ThirdController.Index7 (Advanced.NET6) - Validation state: Valid 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Exception Filter: Before executing OnExceptionAsync on filter Advanced.NET6.Utility.Filters.CustomExecptionFilterAttribute. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Advanced.NET6.Controllers.ThirdController.Index7 (Advanced.NET6) in 4.023ms 
+2023-08-04 14:18:56.3356|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Advanced.NET6.Controllers.ThirdController.Index7 (Advanced.NET6)' 
+2023-08-04 14:18:56.3895|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. System.NotImplementedException: The method or operation is not implemented.
+   at Advanced.NET6.Utility.Filters.CustomExecptionFilterAttribute.OnExceptionAsync(ExceptionContext context) in D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\Utility\Filters\CustomExecptionFilterAttribute.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResourceFilter()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-04 14:18:56.4028|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2023-08-04 14:18:56.4028|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2023-08-04 14:18:56.4028|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVT" completed keep alive response. 
+2023-08-04 14:18:56.4028|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/Third/Index7 - - - 500 - text/html;+charset=utf-8 72.5900ms 
+2023-08-04 14:18:56.4242|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVU" accepted. 
+2023-08-04 14:18:56.4242|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVU" started. 
+2023-08-04 14:18:56.4242|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-04 14:18:56.4242|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVT" completed keep alive response. 
+2023-08-04 14:18:56.4242|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - 
+2023-08-04 14:18:56.4242|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - - 200 12357 application/javascript;+charset=utf-8 0.1561ms 
+2023-08-04 14:18:56.4242|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSKMAJN8UVU" completed keep alive response. 
+2023-08-04 14:18:56.4242|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.8929ms 

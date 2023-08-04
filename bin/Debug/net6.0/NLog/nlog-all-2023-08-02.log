@@ -1,0 +1,309 @@
+2023-08-02 22:28:51.6745|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCIA3KU1J" received FIN. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1J" accepted. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1J" started. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCIA3KU1J" sending FIN because: "The client closed the connection." 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1J" disconnecting. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1J" stopped. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/Third/Index2 - - 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Third/Index2 does not match a supported file type 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/Third/Index2' 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Third/Index2' 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6)' 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6)' 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Index2", controller = "Third"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index2(Int32) on controller Advanced.NET6.Controllers.ThirdController (Advanced.NET6). 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller Advanced.NET6.Controllers.ThirdController (Advanced.NET6) 
+2023-08-02 22:28:51.6782|Advanced.NET6.Controllers.SecondController|INFO|ThirdController 被构造了。。 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller Advanced.NET6.Controllers.ThirdController (Advanced.NET6) 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|DEBUG|Attempting to bind parameter 'id' of type 'System.Int32' using the name '' in request data ... 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|DEBUG|Could not find a value in the request with name '' for binding parameter 'id' of type 'System.Int32'. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|DEBUG|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute. 
+2023-08-02 22:28:51.6782|Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute|INFO|执行Third控制器--Index2方法; 参数为： 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6) - Validation state: Valid 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Executing action method Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6) with arguments (0) 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0494ms. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ViewFeatures.CookieTempDataProvider|DEBUG|The temp data cookie .AspNetCore.Mvc.CookieTempDataProvider was not found. 
+2023-08-02 22:28:51.6782|Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute|INFO|执行Third控制器--Index2方法; 执行结果为：{"StatusCode":null,"ViewName":null,"Model":"welcome you","ViewData":{"user":"{\"Id\":0,\"Name\":\"song -- ViewBag\",\"Age\":34}","UserInfo":"{\"Id\":0,\"Name\":\"song -- ViewData\",\"Age\":34}"},"TempData":{},"ViewEngine":null,"ContentType":null} 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index2' in controller 'Third'. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Index2. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|DEBUG|The view path '/Views/Third/Index2.cshtml' was found in 0.201ms. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Third'. 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and  
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result / 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and  
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result / 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and  
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and  
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy 
+2023-08-02 22:28:51.6782|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Index2 executed in 3.1049ms. 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6) in 5.6115ms 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6)' 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1I" completed keep alive response. 
+2023-08-02 22:28:51.6946|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/Third/Index2 - - - 200 - text/html;+charset=utf-8 8.6613ms 
+2023-08-02 22:28:51.7140|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - 
+2023-08-02 22:28:51.7140|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1I" completed keep alive response. 
+2023-08-02 22:28:51.7140|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.0136ms 
+2023-08-02 22:28:51.7140|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-02 22:28:51.7140|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1I" completed keep alive response. 
+2023-08-02 22:28:51.7140|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - - 200 12357 application/javascript;+charset=utf-8 0.1602ms 
+2023-08-02 22:28:55.8111|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCIA3KU1I" received FIN. 
+2023-08-02 22:28:55.8111|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCIA3KU1I" sending FIN because: "The client closed the connection." 
+2023-08-02 22:28:55.8111|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1I" disconnecting. 
+2023-08-02 22:28:55.8111|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1I" stopped. 
+2023-08-02 22:28:57.2707|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1K" accepted. 
+2023-08-02 22:28:57.2707|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCIA3KU1K" received FIN. 
+2023-08-02 22:28:57.2707|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1K" started. 
+2023-08-02 22:28:57.2707|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCIA3KU1K" sending FIN because: "The client closed the connection." 
+2023-08-02 22:28:57.2707|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1K" disconnecting. 
+2023-08-02 22:28:57.2707|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCIA3KU1K" stopped. 
+2023-08-02 22:29:02.2036|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/First/Index.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Second/Index.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Third/Index.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Third/Index1.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Third/Index2.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'. 
+2023-08-02 22:29:02.2267|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-08-02 22:29:02.2531|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2023-08-02 22:29:02.2637|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using 'C:\Users\宋志杰\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-08-02 22:29:02.2637|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\宋志杰\AppData\Local\ASP.NET\DataProtection-Keys\key-959c7062-b108-4240-8fc7-a8a1b29d93a4.xml'. 
+2023-08-02 22:29:02.2637|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {959c7062-b108-4240-8fc7-a8a1b29d93a4}. 
+2023-08-02 22:29:02.2726|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with expiration date 2023-10-24 08:01:10Z as default key. 
+2023-08-02 22:29:02.2726|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-08-02 22:29:02.2726|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2023-08-02 22:29:02.2726|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-08-02 22:29:02.2726|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-08-02 22:29:02.2726|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-08-02 22:29:02.2726|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {959c7062-b108-4240-8fc7-a8a1b29d93a4} as the default key. 
+2023-08-02 22:29:02.2726|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|DEBUG|Key ring with default key {959c7062-b108-4240-8fc7-a8a1b29d93a4} was loaded during application startup. 
+2023-08-02 22:29:02.3072|Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5210 
+2023-08-02 22:29:02.3072|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Advanced.NET6 
+2023-08-02 22:29:02.3072|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-08-02 22:29:02.3072|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-08-02 22:29:02.3072|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2023-08-02 22:29:02.3072|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2023-08-02 22:29:02.3072|Microsoft.Hosting.Lifetime|INFO|Content root path: D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\ 
+2023-08-02 22:29:02.3072|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2023-08-02 22:29:02.6591|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU7" accepted. 
+2023-08-02 22:29:02.6591|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU6" accepted. 
+2023-08-02 22:29:02.6591|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU6" started. 
+2023-08-02 22:29:02.6591|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU7" started. 
+2023-08-02 22:29:02.6808|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCJ8QHQU6" received FIN. 
+2023-08-02 22:29:02.6808|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCJ8QHQU7" received FIN. 
+2023-08-02 22:29:02.6808|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCJ8QHQU6" sending FIN because: "The client closed the connection." 
+2023-08-02 22:29:02.6808|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCJ8QHQU7" sending FIN because: "The client closed the connection." 
+2023-08-02 22:29:02.6808|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU7" disconnecting. 
+2023-08-02 22:29:02.6808|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU6" disconnecting. 
+2023-08-02 22:29:02.6808|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU7" stopped. 
+2023-08-02 22:29:02.6808|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU6" stopped. 
+2023-08-02 22:29:03.2152|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU8" accepted. 
+2023-08-02 22:29:03.2152|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU8" started. 
+2023-08-02 22:29:03.2385|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/ - - 
+2023-08-02 22:29:03.2610|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2023-08-02 22:29:03.2610|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-02 22:29:03.2610|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-02 22:29:03.2610|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2023-08-02 22:29:03.2837|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/' 
+2023-08-02 22:29:03.2837|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/' 
+2023-08-02 22:29:03.2837|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6)' 
+2023-08-02 22:29:03.2874|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6)' 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Advanced.NET6.Controllers.HomeController (Advanced.NET6). 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller Advanced.NET6.Controllers.HomeController (Advanced.NET6) 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller Advanced.NET6.Controllers.HomeController (Advanced.NET6) 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6) - Validation state: Valid 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3532ms. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/Home/Index.cshtml'. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/_ViewStart.cshtml'. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2023-08-02 22:29:03.3030|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Index. 
+2023-08-02 22:29:03.3187|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|DEBUG|The view path '/Views/Home/Index.cshtml' was found in 4.3494ms. 
+2023-08-02 22:29:03.3187|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Home'. 
+2023-08-02 22:29:03.3347|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/Views/Home/_Layout.cshtml'. 
+2023-08-02 22:29:03.3347|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'. 
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and  
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result / 
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and  
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result / 
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and  
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy 
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and  
+2023-08-02 22:29:03.3543|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy 
+2023-08-02 22:29:03.3682|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2023-08-02 22:29:03.4051|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Index executed in 92.8665ms. 
+2023-08-02 22:29:03.4051|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-08-02 22:29:03.4051|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:03.4051|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:03.4051|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:03.4051|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:03.4051|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6) in 103.0396ms 
+2023-08-02 22:29:03.4051|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Advanced.NET6.Controllers.HomeController.Index (Advanced.NET6)' 
+2023-08-02 22:29:03.4146|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2023-08-02 22:29:03.4146|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU8" completed keep alive response. 
+2023-08-02 22:29:03.4146|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/ - - - 200 - text/html;+charset=utf-8 179.5044ms 
+2023-08-02 22:29:03.4625|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU9" accepted. 
+2023-08-02 22:29:03.4625|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU9" started. 
+2023-08-02 22:29:03.4625|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - 
+2023-08-02 22:29:03.4625|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-02 22:29:03.4625|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU8" completed keep alive response. 
+2023-08-02 22:29:03.4625|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - - 200 12357 application/javascript;+charset=utf-8 0.9693ms 
+2023-08-02 22:29:03.4625|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU9" completed keep alive response. 
+2023-08-02 22:29:03.4625|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.0160ms 
+2023-08-02 22:29:05.5677|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCJ8QHQU8" received FIN. 
+2023-08-02 22:29:05.5677|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCJ8QHQU9" received FIN. 
+2023-08-02 22:29:05.5677|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCJ8QHQU8" sending FIN because: "The client closed the connection." 
+2023-08-02 22:29:05.5677|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU9" disconnecting. 
+2023-08-02 22:29:05.5677|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMSJCJ8QHQU9" sending FIN because: "The client closed the connection." 
+2023-08-02 22:29:05.5677|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU8" disconnecting. 
+2023-08-02 22:29:05.5834|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU9" stopped. 
+2023-08-02 22:29:05.5834|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQU8" stopped. 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQUA" accepted. 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQUA" started. 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/Third/Index2 - - 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {959c7062-b108-4240-8fc7-a8a1b29d93a4} with purposes ('D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\', 'SessionMiddleware'). 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Third/Index2 does not match a supported file type 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/Third/Index2' 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Third/Index2' 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6)' 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6)' 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Index2", controller = "Third"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index2(Int32) on controller Advanced.NET6.Controllers.ThirdController (Advanced.NET6). 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:14.9176|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller Advanced.NET6.Controllers.ThirdController (Advanced.NET6) 
+2023-08-02 22:29:14.9276|Advanced.NET6.Controllers.SecondController|INFO|ThirdController 被构造了。。 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller Advanced.NET6.Controllers.ThirdController (Advanced.NET6) 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|DEBUG|Attempting to bind parameter 'id' of type 'System.Int32' using the name '' in request data ... 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|DEBUG|Could not find a value in the request with name '' for binding parameter 'id' of type 'System.Int32'. 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|DEBUG|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute. 
+2023-08-02 22:29:14.9276|Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute|INFO|执行Third控制器--Index2方法; 参数为： 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute. 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6) - Validation state: Valid 
+2023-08-02 22:29:14.9276|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Executing action method Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6) with arguments (0) 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6), returned result Microsoft.AspNetCore.Mvc.ViewResult in 76.5149ms. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.ViewFeatures.CookieTempDataProvider|DEBUG|The temp data cookie .AspNetCore.Mvc.CookieTempDataProvider was not found. 
+2023-08-02 22:29:15.0105|Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute|INFO|执行Third控制器--Index2方法; 执行结果为：{"StatusCode":null,"ViewName":null,"Model":"welcome you","ViewData":{"user":"{\"Id\":0,\"Name\":\"song -- ViewBag\",\"Age\":34}","UserInfo":"{\"Id\":0,\"Name\":\"song -- ViewData\",\"Age\":34}"},"TempData":{},"ViewEngine":null,"ContentType":null} 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index2' in controller 'Third'. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/Third/Index2.cshtml'. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/Views/Third/_ViewStart.cshtml'. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/_ViewStart.cshtml'. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Index2. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|DEBUG|The view path '/Views/Third/Index2.cshtml' was found in 0.4986ms. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Third'. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/Views/Third/_Layout.cshtml'. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'. 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and  
+2023-08-02 22:29:15.0105|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result / 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and  
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result / 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and  
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and  
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Index2 executed in 7.1089ms. 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6) in 98.2031ms 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Advanced.NET6.Controllers.ThirdController.Index2 (Advanced.NET6)' 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQUA" completed keep alive response. 
+2023-08-02 22:29:15.0214|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/Third/Index2 - - - 200 - text/html;+charset=utf-8 108.2696ms 
+2023-08-02 22:29:15.0630|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-02 22:29:15.0630|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQUA" completed keep alive response. 
+2023-08-02 22:29:15.0630|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_framework/aspnetcore-browser-refresh.js - - - 200 12357 application/javascript;+charset=utf-8 0.2544ms 
+2023-08-02 22:29:15.0630|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - 
+2023-08-02 22:29:15.0699|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMSJCJ8QHQUA" completed keep alive response. 
+2023-08-02 22:29:15.0699|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.2339ms 

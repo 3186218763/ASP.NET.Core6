@@ -1,0 +1,6 @@
+2023-08-02 22:28:51.6782|Advanced.NET6.Controllers.SecondController|INFO|ThirdController 被构造了。。 
+2023-08-02 22:28:51.6782|Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute|INFO|执行Third控制器--Index2方法; 参数为： 
+2023-08-02 22:28:51.6782|Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute|INFO|执行Third控制器--Index2方法; 执行结果为：{"StatusCode":null,"ViewName":null,"Model":"welcome you","ViewData":{"user":"{\"Id\":0,\"Name\":\"song -- ViewBag\",\"Age\":34}","UserInfo":"{\"Id\":0,\"Name\":\"song -- ViewData\",\"Age\":34}"},"TempData":{},"ViewEngine":null,"ContentType":null} 
+2023-08-02 22:29:14.9276|Advanced.NET6.Controllers.SecondController|INFO|ThirdController 被构造了。。 
+2023-08-02 22:29:14.9276|Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute|INFO|执行Third控制器--Index2方法; 参数为： 
+2023-08-02 22:29:15.0105|Advanced.NET6.Utility.Filters.CustomLogActionFilterAttribute|INFO|执行Third控制器--Index2方法; 执行结果为：{"StatusCode":null,"ViewName":null,"Model":"welcome you","ViewData":{"user":"{\"Id\":0,\"Name\":\"song -- ViewBag\",\"Age\":34}","UserInfo":"{\"Id\":0,\"Name\":\"song -- ViewData\",\"Age\":34}"},"TempData":{},"ViewEngine":null,"ContentType":null} 
