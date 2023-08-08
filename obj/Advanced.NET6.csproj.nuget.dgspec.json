@@ -1,31 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS-PRO\\.NET6学习\\Advanced\\Advanced.NET6\\Advanced.NET6.csproj": {}
+    "F:\\VS-Pro\\ASP.NET.Core6\\Advanced.NET6.csproj": {}
   },
   "projects": {
-    "D:\\VS-PRO\\.NET6学习\\Advanced\\Advanced.NET6\\Advanced.NET6.csproj": {
+    "F:\\VS-Pro\\ASP.NET.Core6\\Advanced.NET6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS-PRO\\.NET6学习\\Advanced\\Advanced.NET6\\Advanced.NET6.csproj",
+        "projectUniqueName": "F:\\VS-Pro\\ASP.NET.Core6\\Advanced.NET6.csproj",
         "projectName": "Advanced.NET6",
-        "projectPath": "D:\\VS-PRO\\.NET6学习\\Advanced\\Advanced.NET6\\Advanced.NET6.csproj",
-        "packagesPath": "C:\\Users\\宋志杰\\.nuget\\packages\\",
-        "outputPath": "D:\\VS-PRO\\.NET6学习\\Advanced\\Advanced.NET6\\obj\\",
+        "projectPath": "F:\\VS-Pro\\ASP.NET.Core6\\Advanced.NET6.csproj",
+        "packagesPath": "C:\\Users\\song1\\.nuget\\packages\\",
+        "outputPath": "F:\\VS-Pro\\ASP.NET.Core6\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\VS-TOOLS\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\宋志杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\song1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "D:\\C++ Other Libraries\\vcpkg-master": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

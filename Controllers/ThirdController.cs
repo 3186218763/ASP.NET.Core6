@@ -130,5 +130,8 @@ namespace Advanced.NET6.Controllers
             throw new Exception("其实没有什么，就是测试");
         }
         #endregion
+
+
+        
     }
 }

@@ -9,65 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Advanced.NET6
 build_property.RootNamespace = Advanced.NET6
-build_property.ProjectDir = D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6\
+build_property.ProjectDir = F:\VS-Pro\ASP.NET.Core6\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\VS-PRO\.NET6学习\Advanced\Advanced.NET6
+build_property.MSBuildProjectDirectory = F:\VS-Pro\ASP.NET.Core6
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/First/Index.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/First/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlyc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Home/Index.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Fourth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91cnRoXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/VS-Pro/ASP.NET.Core6/Views/Fourth/LOGIN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91cnRoXExPR0lOLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/VS-Pro/ASP.NET.Core6/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Home/Privacy.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Second/Index.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Second/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vjb25kXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Shared/Error.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Third/Index.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Third/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhpcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Third/Index1.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Third/Index1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhpcmRcSW5kZXgxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Third/Index2.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Third/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhpcmRcSW5kZXgyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Third/Index3.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Third/Index3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhpcmRcSW5kZXgzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Third/Index4.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Third/Index4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhpcmRcSW5kZXg0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/_ViewImports.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/_ViewStart.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PRO/.NET6学习/Advanced/Advanced.NET6/Views/Shared/_Layout.cshtml]
+[F:/VS-Pro/ASP.NET.Core6/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z2t5bpydxx
