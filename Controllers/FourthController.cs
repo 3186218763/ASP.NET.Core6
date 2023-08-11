@@ -21,6 +21,26 @@ namespace Advanced.NET6.Controllers
             return View();
         }
 
+        [Authorize(AuthenticationSchemes = CookieAuthenticationDefaults.AuthenticationScheme, Roles = "Admin")]
+        [Authorize(AuthenticationSchemes = CookieAuthenticationDefaults.AuthenticationScheme, Roles = "User")]
+        [Authorize(AuthenticationSchemes = CookieAuthenticationDefaults.AuthenticationScheme, Roles = "Teach")]
+        public IActionResult Index1()
+        {
+            return View();
+        }
+
+        [Authorize(AuthenticationSchemes = CookieAuthenticationDefaults.AuthenticationScheme, Roles = "Admin, User")]
+        public IActionResult Index2()
+        {
+            return View();
+        }
+
+        [Authorize(AuthenticationSchemes = CookieAuthenticationDefaults.AuthenticationScheme, Policy = "rolePolicy")]
+        public IActionResult Index3()
+        {
+            return View();
+        }
+
         /// <summary>
         /// 登录页
         /// </summary>
